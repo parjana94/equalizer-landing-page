@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=IBM+Plex+Sans:wght@400;700&family=Open+Sans&family=Outfit:wght@300&display=swap");
+
+body {
+  background-image: url(/assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 0 -22%;
+}
+.container {
+  width: 327px;
+  margin: 0 auto;
+}
+
+/* ჰედერი მობილურის სურათამდე*/
+header {
+  padding-top: 40px;
+}
+h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: hsla(244, 23%, 12%, 1);
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+header p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: hsla(244, 23%, 12%, 1);
+}
+
+/* მთვარი სექცია */
+main {
+  margin-top: 165px;
+  background-color: hsla(242, 22%, 12%, 1);
+  position: relative;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.main-pic {
+  width: 210px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -15%;
+}
+
+.premium {
+  position: absolute;
+  top: 380px;
+  background-color: hsla(12, 94%, 65%, 1);
+  width: 100%;
+  border-radius: 12px;
+}
+.premium h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: hsla(20, 33%, 98%, 1);
+  text-transform: capitalize;
+  padding-top: 48px;
+  padding-bottom: 12px;
+}
+.premeq {
+  text-transform: uppercase;
+}
+.premium p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: hsla(20, 33%, 98%, 1);
+}
+.price {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 52px;
+  color: white;
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+
+.month {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.ios {
+  background-color: hsla(244, 23%, 12%, 1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsla(20, 33%, 98%, 1);
+  padding: 15px 77px;
+  margin-bottom: 16px;
+}
+.ios h3 {
+  padding-left: 8px;
+}
+.android {
+  background-color: hsla(20, 33%, 98%, 1);
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.android h3 {
+  text-transform: capitalize;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  padding-left: 12px;
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: -110%;
+  left: 24px;
+}
+footer p {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+.fa-brands {
+  color: hsla(244, 23%, 12%, 1);
+}
