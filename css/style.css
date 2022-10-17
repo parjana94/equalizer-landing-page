@@ -137,13 +137,28 @@ main {
 /* Footer */
 footer {
   position: absolute;
-  bottom: -110%;
+  top: 196vh;
   left: 24px;
 }
 footer p {
   margin-top: 32px;
   margin-bottom: 64px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+footer a {
+  text-decoration: none;
+  color: hsla(244, 23%, 12%, 1);
+  font-weight: bold;
 }
 .fa-brands {
   color: hsla(244, 23%, 12%, 1);
+  padding-bottom: 80px;
+}
+.fa-twitter,
+.fa-instagram {
+  padding-left: 20px;
 }
