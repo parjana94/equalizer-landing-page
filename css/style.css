@@ -6,13 +6,16 @@ body {
   background-position: 0 -22%;
 }
 .container {
-  width: 327px;
+  width: 90%;
   margin: 0 auto;
 }
 
 /* ჰედერი მობილურის სურათამდე*/
 header {
   padding-top: 40px;
+}
+.bg-pattern {
+  display: none;
 }
 h1 {
   font-family: "IBM Plex Sans";
@@ -163,4 +166,101 @@ footer a {
 .fa-twitter,
 .fa-instagram {
   padding-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    background-image: url(/assets/bg-main-tablet.png);
+    background-position: 65% -124%;
+  }
+  .container {
+    width: 90%;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+    width: 520px;
+  }
+  header {
+    position: relative;
+    width: 90%;
+  }
+  header p {
+    width: 514px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .bg-pattern {
+    display: block;
+    position: absolute;
+    top: -3%;
+    right: -3%;
+    z-index: -1;
+    width: 267px;
+    height: 400px;
+  }
+  .head-txt {
+    padding-top: 100px;
+  }
+  .main-pic {
+    left: 20%;
+  }
+  main {
+    background-image: url(/assets/bg-pattern-2.svg);
+    background-repeat: no-repeat;
+    background-position: 33% -43%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .premium {
+    width: 400px;
+    top: 136px;
+    left: 24%;
+  }
+  .tablet-size {
+    width: 300px;
+  }
+  footer {
+    top: 1500px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    width: 900px;
+    font-size: 75px;
+    line-height: 88px;
+  }
+  header p {
+    width: 800px;
+  }
+  .premium {
+    top: 75px;
+    left: 46%;
+  }
+  footer {
+    top: 1350px;
+    width: 87%;
+  }
+  .ios {
+    transition: 0.5s;
+  }
+  .ios:hover {
+    background-color: hsla(177, 68%, 64%, 1);
+    color: hsla(20, 33%, 98%, 1);
+  }
+  .android {
+    transition: 0.5s;
+  }
+  .android:hover {
+    background-color: hsla(33, 100%, 70%, 1);
+  }
 }
