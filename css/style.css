@@ -133,7 +133,6 @@ main {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 32px;
   text-align: center;
   letter-spacing: -0.18px;
   padding-left: 12px;
@@ -262,5 +261,11 @@ footer a {
   }
   .android:hover {
     background-color: hsla(33, 100%, 70%, 1);
+  }
+  .fa-brands {
+    transition: 0.5s;
+  }
+  .fa-brands:hover {
+    color: hsla(33, 100%, 70%, 1);
   }
 }
