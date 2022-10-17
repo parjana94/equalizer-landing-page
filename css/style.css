@@ -108,6 +108,7 @@ main {
   color: hsla(20, 33%, 98%, 1);
   padding: 15px 77px;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 .ios h3 {
   padding-left: 8px;
@@ -121,6 +122,7 @@ main {
   margin-bottom: 48px;
   padding-top: 15px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 .android h3 {
   text-transform: capitalize;
@@ -137,7 +139,7 @@ main {
 /* Footer */
 footer {
   position: absolute;
-  top: 196vh;
+  top: 1600px;
   left: 24px;
 }
 footer p {
